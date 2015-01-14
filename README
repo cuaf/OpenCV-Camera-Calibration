@@ -1,0 +1,21 @@
+Camera Calibration Demo
+======================
+
+This is sitting here because it took me far too long to do this from the docs. 
+
+This will process live video from the camera, and should be used with the acircles_pattern.png printout. 
+run ./camera_calibration config.xml . A window appears. Hold up the circles, and they will be joined by lines. 
+
+Press G, move the paper around. It will calibrate, and provide you with an output.xml of the camera characteristics. 
+
+You can then use this in other programs. 
+
+We need to calibrate the raspberry pi camera. 
+
+
+Other
+======
+
+The images.xml is there in case you want to statically set up the camera from pictures. It can apparently also be calibrated from prerecorded video. 
+
+The makefile works for opencv in homebrew on my mac. Hopefully will also work on the pi. 
